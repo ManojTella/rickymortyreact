@@ -8,6 +8,7 @@ const App = () => {
       <div className="app">
         <Routes>
           <Route path="/" element={<CharacterList />} />
+          <Route path="/rickymortyreact/" element={<CharacterList />} />
         </Routes>
       </div>
     </Router>
